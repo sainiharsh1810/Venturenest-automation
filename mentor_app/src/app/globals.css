@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --bg-mobile: #0b192c;
+  --surface-mobile: #1e293b;
+  --indigo-accent: #6366f1;
+  --teal-accent: #008b8b;
+  --gold-accent: #d4af37;
+  --text-main: #f8fafc;
+}
+
+body {
+  background-color: #050b14;
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
